@@ -1,0 +1,82 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+section {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+#top-section {
+  background-image: url(/images/top-banner.png);
+  background-repeat: no-repeat;
+}
+
+.half-width {
+  width: 50%;
+  padding: 5px;
+  margin-left: 150px;
+}
+
+span {
+  color: yellow;
+}
+
+button {
+  background-color: tomato;
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: black;
+  font-weight: 500;
+}
+
+button:hover {
+  font-weight: 600;
+  color: white;
+  background-color: skyblue;
+}
+
+.half-width img {
+  width: 70%;
+}
+
+h1 {
+  font-size: 60px;
+}
+p {
+  font-size: 20px;
+}
+
+#experience {
+  text-align: center;
+  font-size: 60px;
+  padding: 10px;
+  margin: 5px;
+  color: rgb(244, 186, 76);
+}
+
+.experience {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-align: center;
+  text-align: justify;
+  padding: 10px;
+}
+
+.experience h3 {
+  color: tomato;
+}
+
+#lf-side {
+  border-left: 5px solid tomato;
+}
+
+#rg-side {
+  border-left: 5px solid cyan;
+}
+footer {
+  text-align: center;
+  color: navy;
+  font-size: 20px;
+}
